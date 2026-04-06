@@ -1,40 +1,42 @@
-# 🎓 Student Feedback Management System (Java Web Application)
+# Student Feedback Management System
 
-Developed a full-stack web-based **Student Feedback Management System** that enables students to submit feedback for subjects and allows administrators to efficiently manage and review the data.
+## 📌 Overview
+The Student Feedback Management System is a web-based application developed using Java technologies. It allows students to submit feedback for different subjects and enables the admin to view and manage the feedback efficiently.
 
-The application follows the **MVC (Model-View-Controller) architecture**, ensuring a clear separation between business logic, presentation layer, and database operations. It provides a user-friendly interface with a structured dashboard and seamless navigation between modules.
+The system follows the MVC (Model-View-Controller) architecture to maintain a clear separation between the user interface, business logic, and database operations.
 
 ---
 
-## 🚀 Key Features
+## ⚙️ Functionality
 
-- Student feedback submission with rating and comments  
-- Admin login system for secure access  
-- View and manage all feedback in a structured format  
-- Responsive and visually enhanced UI using modern CSS styling  
-- Centralized dashboard with navigation-based design  
+### Student Side:
+- Submit feedback with name, subject, rating, and comments  
+- Simple and user-friendly interface  
+
+### Admin Side:
+- Secure admin login  
+- View all submitted feedback  
+- Organized display of feedback in tabular format  
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Java (JDK)** – Backend logic  
-- **Jakarta EE (Servlets & JSP)** – Web application development  
+- **Java (JDK)** – Backend development  
+- **Jakarta EE (Servlets & JSP)** – Web application framework  
 - **JDBC** – Database connectivity  
-- **MySQL** – Data storage  
+- **MySQL** – Database  
 - **HTML, CSS** – Frontend design  
-- **Apache Tomcat** – Deployment server  
+- **Apache Tomcat** – Server for deployment  
 
 ---
 
-## 📚 Learning Outcomes
+## 🔄 Project Flow
 
-- Gained hands-on experience in **Java Web Development**  
-- Learned **JDBC integration with MySQL**  
-- Understood and implemented **MVC Architecture**  
-- Improved **UI/UX design skills**  
-- Practiced **project structuring and deployment**  
+Student fills feedback form → Data sent to Servlet → Processed using DAO → Stored in MySQL → Admin views feedback  
 
 ---
 
-## 📌 Project Flow
+## 💡 Conclusion
+
+This project demonstrates a basic implementation of a Java web application with database integration. It helps in understanding concepts like Servlets, JSP, JDBC, and MVC architecture.
